@@ -1,0 +1,13 @@
+
+<footer class="footer" role="contentinfo">
+  <div class="logo image">
+    <img src="/assets/img/logo.png">
+  </div>
+  <a href="mailto:info@iq-se.com" class="email-link"><h3>info@iq-se.com</h3></a>
+  <div class="social">
+    <a href="" class="instagram"><img src="/assets/img/icon_instagram.png"></a>
+    <a href="" class="twitter"><img src="/assets/img/icon_twitter.png"></a>
+    <a href="" class="youtube"><img src="/assets/img/icon_youtube.png"></a>
+  </div>
+  <div class="copyright">© Sports IQ <script>document.write(new Date().getFullYear())</script> — All Rights Reserved.</div>
+</footer>

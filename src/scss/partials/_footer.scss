@@ -1,0 +1,36 @@
+.footer {
+  background: #131313;
+  text-align: center;
+
+  .logo {
+    width: 20vw;
+    margin: 0 auto;
+  }
+
+  .email-link {
+    color: #EEDCAA;
+    text-decoration: none;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    a {
+      width: 7.5vw;
+      margin: 0 3vw;
+
+      img {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .copyright {
+    color: #fff;
+    font-size: 3vw;
+    padding: 10vw 0 20vw;
+  }
+}

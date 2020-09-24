@@ -1,0 +1,67 @@
+<!-- index.nunjucks -->
+
+{% set pageID = 'home' %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<section id="who-we-are" class="section">
+  <h2>Who We Are</h2>
+  <h3>IQ Sports & Entertainment is a global, full service management firm headquartered in Chicago. Our supporting office located in Los Angeles, CA oversees our Entertainment, Media, and Venture Capital endeavors.</h3>
+  <p>Our executive leadership team has decades of experience to deliver clients an exclusive, tailor-made blueprint helping reach their fullest potential.</p>
+</section>
+<section id="locations" class="section">
+  <h3>Our Locations</h3>
+  <div class="image">
+    <img src="/assets/img/chicago.png">
+  </div>
+  <div class="image">
+    <img src="/assets/img/LA.png">
+  </div>
+  
+</section>
+<section id="services" class="section">
+  <h2>Services</h2>
+  <p>IQSE provides an individualized plan in regard to professional development, brand management, and philanthropic initiatives. Our clients are our top priority as we strive to help them both personally and professionally.</p>
+  <h3>Contract Negotiations</h3>
+  <p>Maximize your earnings. We approach every negotiation strategically to extract the highest value for each client.</p>
+  <h3>PLAYER DEVELOPMENT & TRAINING</h3>
+  <p>Maximize your potential. Our network and access to some of the best trainers and facilities in the world will supplement your performance and professional maturation.</p>
+  <h3>ENDORSEMENTS</h3>
+  <p>Maximize the value of your character. We think outside the box to create partnership opportunities to amplify your brand identity.</p>
+  <h3>EQUITY–BASED OPPORTUNITIES</h3>
+  <p>Maximize your interest. We take a unique approach to business partnerships in which our clients are passionate. We believe in long-term ownership over short-term transaction.</p>
+  <h3>PUBLIC RELATIONS</h3>
+  <p>Maximize your story. Our PR team handles all media requests and inquiries on our clients behalf. Working closely with our roster our staff helps to guide the narrative of our athletes and entertainers voices.</p>
+  <h3>SOCIAL MEDIA MANAGEMENT</h3>
+  <p>Maximize the value of content. Our creative director & digital team executes strategies to increase clients social media presence. Along with increasing presence, we initiate opportunities to monetize from social media platforms.</p>
+  <h3>COMMUNITY OUTREACH</h3>
+  <p>Maximize your impact in the community. We help you help others. Giving back is an important pillar our company stands on. Our philanthropic team assists in all charitable non-profit endeavors.</p>
+  <h3>DAILY PERSONAL MANAGEMENT</h3>
+  <p>Maximize your focus. We assign individual managers and assistants to our clients. Alleviating tasks and ordeals to grant optimal success.</p>
+  <h3>POST-CAREER PLANNING</h3>
+  <p>Maximize your career. Planning for life after sport begins just as soon as each client's career commences. Our team works with each client to ensure that when the ball stops bouncing that there is a plan for expansive opportunities from sport to business to fully engage.</p>
+</section>
+<section id="contact-us" class="section">
+  <h1>Are you next?</h1>
+  <p>Fill out the form below for inquiries, comments, or requests. Someone from our team will be in touch soon.</p>
+  <form>
+    <div>
+      <label>Full Name <input type="text" name="name" /></label>   
+    </div>
+    <div>
+      <label>Email Address <input type="email" name="email" /></label>
+    </div>
+    <div>
+      <label>Your Sport/Industry <input type="email" name="email" /></label>
+    </div>
+    <div>
+      <label>Message (optional) <textarea name="message"></textarea></label>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</section>
+
+{% endblock %}

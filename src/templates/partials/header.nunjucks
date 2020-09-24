@@ -1,0 +1,61 @@
+{% set navItems = [
+	{
+		url: '/',
+		slug: 'home',
+		title: 'Home'
+	},
+	{
+		url: '/#who-we-are',
+		slug: 'who-we-are',
+		title: 'Who We Are'
+	}
+	,
+	{
+		url: '/#services',
+		slug: 'services',
+		title: 'Services'
+	}
+	,
+	{
+		url: '/#contact-us',
+		slug: 'contact',
+		title: 'Contact'
+	}
+]
+%}
+
+{% set pageID = pageID | default('') %}
+
+
+<header class="header" role="banner">
+	<nav id="site-navigation">
+		<div class="logo">
+			<a href="/">
+				<img src="assets/img/logo-desktop.png" alt="Logo">
+			</a>
+		</div>
+		<ul class="nav-items">
+			{% for navItem in navItems %}
+				{% if navItem.slug !== 'home' %}
+					<li>
+						<a href="{{ navItem.url }}" class="{% if navItem.button==true %} button {% endif %} {% if navItem.slug == pageID %} active {% endif %}">
+							{{ navItem.title }}
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+	<div class="hero">
+
+		<div class="logo">
+			<a href="/"class="mobile-only">
+				<img src="assets/img/logo-mobile.png" alt="Logo" >
+			</a>
+		</div>
+
+		<div class="content">
+			<h1>Amplifying the careers of professional athletes & entertainers</h1>
+		</div>
+
+</header>

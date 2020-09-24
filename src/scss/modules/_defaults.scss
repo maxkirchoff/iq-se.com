@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: proxima-nova,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.85vw;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  font-family: termina,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 6.25vw;
+  line-height: 1.35;
+  @media only screen and (min-width: $md-min-width) {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-size: 6.75vw;
+  line-height: 1.45;
+  letter-spacing: 1px;
+  font-weight: 500;
+  @media only screen and (min-width: $md-min-width) {
+    font-size: 28px;
+  }
+}
+
+h3 {
+  font-size: 3.35vw;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  margin: 7.5vw 0;
+  @media only screen and (min-width: $md-min-width) {
+    font-size: 14px;
+  }
+}
+
+p {
+  line-height: 1.75;
+  margin: 5vw 0;
+  @media only screen and (min-width: $md-min-width) {
+    font-size: 16px;
+  }
+}
+
+
+
+.image {
+  img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
