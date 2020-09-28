@@ -3,11 +3,12 @@
   'use strict';
 
   $(function () {
-    $('button.menu-toggle').on('click touch', function(ev) {
-      ev.preventDefault();
-      $('ul.nav-items').toggleClass('active');
-		$('ul.social-items').toggleClass('active');
-      $(this).toggleClass('menu-active');
+    $(window).on('scroll', function(ev){
+      if ($(window).scrollTop() > 50) {
+        $('body').addClass('scrolled');
+      } else {
+        $('body').removeClass('scrolled');
+      }
     });
   });
 
