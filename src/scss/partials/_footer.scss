@@ -1,36 +1,194 @@
 .footer {
-  background: #131313;
+  background: #000;
+  background-image: url("/assets/img/contact-us-bg-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center bottom;
   text-align: center;
 
-  .logo {
-    width: 20vw;
-    margin: 0 auto;
-  }
+  @media only screen and (min-width: $md-min-width) {
+    background-image: url("/assets/img/contact-us-bg.jpg");
 
-  .email-link {
-    color: #EEDCAA;
-    text-decoration: none;
-  }
-
-  .social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    a {
-      width: 7.5vw;
-      margin: 0 3vw;
-
-      img {
-        max-width: 100%;
-        width: 100%;
-      }
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
   }
 
-  .copyright {
-    color: #fff;
-    font-size: 3vw;
-    padding: 10vw 0 20vw;
+
+  #contact-us {
+    padding: 1px 5vw 80vw;
+    margin: -1px 0;
+    text-align: left;
+    @media only screen and (min-width: $md-min-width) {
+      width: 740px;
+      padding: 1px 0;
+      margin: -1px auto;   
+      
+      
+    }
+
+
+    h1 {
+      color: #EEDCAA;
+      text-align: center;
+      margin: 20vw auto 0;
+      @media only screen and (min-width: $md-min-width) {
+        margin: 100px auto 0;
+      }
+    }
+    p {
+      color: #fff;
+      text-align: center;
+      margin: 7.5vw 5vw;
+      @media only screen and (min-width: $md-min-width) {
+        margin: 40px auto;
+        width: 450px;
+      }
+    }
+
+    form {
+      display: block;
+      color: #fff;
+
+      @media only screen and (min-width: $md-min-width) {
+        .row {
+          > div {
+            width: calc(50% - 10px);
+          }
+        }
+
+      }
+      label {
+        display: block;
+        color: #fff;
+        margin-top: 5vw;
+        font-size: 3.35vw;
+        @media only screen and (min-width: $md-min-width) {
+          font-size: 14px;
+          margin-top: 20px;
+        }
+      }
+      input, textarea {
+        display: block;
+        background: rgba(255,255,255,.1);
+        border: none;
+        border-radius: none;
+        width: 100%;
+
+        color: #fff;
+        padding: 3.5vw;
+        margin-top: 2.5vw;
+        @media only screen and (min-width: $md-min-width) {
+          margin-top: 10px;
+          padding: 15px;
+        }
+      }
+      textarea {
+        height: 40vw;
+        @media only screen and (min-width: $md-min-width) {
+          height: 150px
+        }
+      }
+
+      button {
+        display: block;
+        width: 100%;
+        margin-top: 5vw;
+        padding: 4vw 0;
+        border: none;
+        border-radius: 0;
+        background: linear-gradient(269.76deg, #C39F67 0%, #EEDCAA 100%);
+        text-transform: uppercase;
+        font-family: termina,sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 3.35vw;
+
+        @media only screen and (min-width: $md-min-width) {
+          margin-top: 20px;
+          padding: 15px 0;
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
+
+  .footer-content {
+    @media only screen and (min-width: $md-min-width) {
+      padding: 200px calc( 50vw - 500px ) 0;
+    }
+
+    .row {
+      @media only screen and (min-width: $md-min-width) {
+        .left {
+          width: 400px;
+        }
+        .right {
+  
+        }
+  
+        .column {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+      }
+    }
+  
+    .logo {
+      width: 20vw;
+      margin: 0 auto;
+      @media only screen and (min-width: $md-min-width) {
+        width: 64px;
+      }
+    }
+  
+    .email-link {
+      color: #EEDCAA;
+      text-decoration: none;
+      @media only screen and (min-width: $md-min-width) {
+        text-align: left;
+      }
+
+      h3 {
+        @media only screen and (min-width: $md-min-width) {
+          padding: 0; 
+          margin: 0 0 0 0;
+        }
+      }
+    }
+  
+    .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  
+      a {
+        width: 7.5vw;
+        margin: 0 3vw;
+        @media only screen and (min-width: $md-min-width) {
+          width: 32px;
+          margin: 0 15px;
+        }
+  
+        img {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+    }
+  
+    .copyright {
+      color: #fff;
+      font-size: 3vw;
+      padding: 10vw 0 10vw;
+      @media only screen and (min-width: $md-min-width) {
+        padding: 0;
+        font-size: 14px;
+      }
+    }
   }
 }

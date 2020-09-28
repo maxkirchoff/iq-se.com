@@ -48,8 +48,8 @@
 	</nav>
 	<div class="hero">
 
-		<div class="logo">
-			<a href="/"class="mobile-only">
+		<div class="logo mobile-only">
+			<a href="/">
 				<img src="assets/img/logo-mobile.png" alt="Logo" >
 			</a>
 		</div>

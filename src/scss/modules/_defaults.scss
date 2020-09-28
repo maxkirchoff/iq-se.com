@@ -9,7 +9,8 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 3.85vw;
-  color: #000;
+  color: #fff;
+  background: #000;
 }
 
 h1, h2, h3, h4, h5 {
@@ -45,6 +46,8 @@ h3 {
   margin: 7.5vw 0;
   @media only screen and (min-width: $md-min-width) {
     font-size: 14px;
+    margin: 40px 0;
+    line-height: 2;
   }
 }
 
@@ -53,6 +56,7 @@ p {
   margin: 5vw 0;
   @media only screen and (min-width: $md-min-width) {
     font-size: 16px;
+    margin: 10px 0;
   }
 }
 

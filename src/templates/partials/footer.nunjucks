@@ -1,13 +1,48 @@
 
 <footer class="footer" role="contentinfo">
-  <div class="logo image">
-    <img src="/assets/img/logo.png">
+  <section id="contact-us" class="section">
+    <h1>Are you next?</h1>
+    <p>Fill out the form below for inquiries, comments, or requests. Someone from our team will be in touch soon.</p>
+    <form name="contact" method="POST" data-netlify="true">
+      <div class="row">
+        <div>
+          <label>Full Name <input type="text" name="name" /></label>   
+        </div>
+        <div>
+         <label>Email Address <input type="email" name="email" /></label>
+        </div>
+      </div>
+      <div>
+        <label>Your Sport/Industry <input type="email" name="email" /></label>
+      </div>
+      <div>
+        <label>Message (optional) <textarea name="message"></textarea></label>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </section>
+  <div class="footer-content">
+
+    <div class="row">
+      <div class="left row">
+        <div class="logo image">
+          <img src="/assets/img/logo.png">
+        </div>
+        <div class="column">
+          <a href="mailto:info@iq-se.com" class="email-link"><h3>info@iq-se.com</h3></a>
+          <div class="copyright desktop-only">© Sports IQ <script>document.write(new Date().getFullYear())</script> — All Rights Reserved.</div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="social">
+          <a href="" class="instagram"><img src="/assets/img/icon_instagram.png"></a>
+          <a href="" class="twitter"><img src="/assets/img/icon_twitter.png"></a>
+          <a href="" class="youtube"><img src="/assets/img/icon_youtube.png"></a>
+        </div>
+      </div>
+      <div class="copyright mobile-only">© Sports IQ <script>document.write(new Date().getFullYear())</script> — All Rights Reserved.</div>
+    </div>
   </div>
-  <a href="mailto:info@iq-se.com" class="email-link"><h3>info@iq-se.com</h3></a>
-  <div class="social">
-    <a href="" class="instagram"><img src="/assets/img/icon_instagram.png"></a>
-    <a href="" class="twitter"><img src="/assets/img/icon_twitter.png"></a>
-    <a href="" class="youtube"><img src="/assets/img/icon_youtube.png"></a>
-  </div>
-  <div class="copyright">© Sports IQ <script>document.write(new Date().getFullYear())</script> — All Rights Reserved.</div>
 </footer>

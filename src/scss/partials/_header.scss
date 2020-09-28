@@ -9,11 +9,11 @@
     padding: 0 calc( 50vw - 500px );
     background-size: auto 100%;
     background-position: right center;
+    background-image: url("/assets/img/BG.jpg");
   }
 
 
   .logo {
-	  display: block;
     width: 60vw;
     margin: 0 auto;
     padding: 10vw 0;
@@ -107,8 +107,10 @@
       padding-bottom: 40vw;
 
       @media only screen and (min-width: $md-min-width) {
+        text-align: left;
         margin: 0;
-        padding-bottom: 0;
+        padding: 200px 0 225px;
+        width: 70%;
       }
     }
   }
