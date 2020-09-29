@@ -63,9 +63,9 @@
 				{% endif %}
 			{% endfor %}
 			<li class="social">
-				<a href="" class="instagram"><img src="/assets/img/icon_instagram.png"></a>
-				<a href="" class="twitter"><img src="/assets/img/icon_twitter.png"></a>
-				<a href="" class="youtube"><img src="/assets/img/icon_youtube.png"></a>
+				<a href="https://www.instagram.com/iqsports_" target="_blank" class="instagram"><img src="/assets/img/icon_instagram.png"></a>
+				<a href="https://twitter.com/iqsports_" target="_blank" class="twitter"><img src="/assets/img/icon_twitter.png"></a>
+				<a href="https://www.youtube.com/channel/UCydtbXW3uC6sldIyIBKNvSw/playlists" target="_blank" class="youtube"><img src="/assets/img/icon_youtube.png"></a>
 			</li>
 		</ul>
 		
