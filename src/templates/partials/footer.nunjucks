@@ -31,7 +31,7 @@
           <img src="/assets/img/logo.png">
         </div>
         <div class="column">
-          <a href="mailto:info@iq-se.com" class="email-link"><h3>info@iq-se.com</h3></a>
+          <a href="mailto:contact@iq-se.com" class="email-link"><h3>contact@iq-se.com</h3></a>
           <div class="copyright desktop-only">© Sports IQ <script>document.write(new Date().getFullYear())</script> — All Rights Reserved.</div>
         </div>
       </div>
