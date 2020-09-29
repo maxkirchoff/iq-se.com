@@ -118,7 +118,7 @@
 
   .footer-content {
     @media only screen and (min-width: $md-min-width) {
-      padding: 200px calc( 50vw - 500px ) 0;
+      padding: 200px calc( 50vw - 500px ) 20px;
     }
 
     .row {

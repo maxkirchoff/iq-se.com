@@ -38,7 +38,7 @@
 			{% for navItem in navItems %}
 				{% if navItem.slug !== 'home' %}
 					<li>
-						<a href="{{ navItem.url }}" class="{% if navItem.button==true %} button {% endif %} {% if navItem.slug == pageID %} active {% endif %}">
+						<a href="{{ navItem.url }}" class="nav-item {% if navItem.button==true %} button {% endif %} {% if navItem.slug == pageID %} active {% endif %}">
 							{{ navItem.title }}
 						</a>
 					</li>
@@ -56,7 +56,7 @@
 			{% for navItem in navItems %}
 				{% if navItem.slug !== 'home' %}
 					<li>
-						<a href="{{ navItem.url }}" class="{% if navItem.button==true %} button {% endif %} {% if navItem.slug == pageID %} active {% endif %}">
+						<a href="{{ navItem.url }}" class="nav-item {% if navItem.button==true %} button {% endif %} {% if navItem.slug == pageID %} active {% endif %}">
 							{{ navItem.title }}
 						</a>
 					</li>

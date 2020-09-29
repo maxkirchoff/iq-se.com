@@ -429,6 +429,9 @@ body {
   font-size: 3.85vw;
   color: #fff;
   background: #000; }
+  @media only screen and (min-width: 1024px) {
+    body {
+      font-size: 14px; } }
 
 h1, h2, h3, h4, h5 {
   text-transform: uppercase;
@@ -587,9 +590,9 @@ p {
     display: none; }
     @media only screen and (min-width: 1024px) {
       .header nav#sticky-navigation {
-        padding: 0 calc( 50vw - 500px);
+        padding: 15px calc( 50vw - 500px);
         position: fixed;
-        top: -70px;
+        top: -80px;
         left: 0;
         right: 0;
         background: #fff;
@@ -626,7 +629,7 @@ p {
         text-align: left;
         margin: 0;
         padding: 200px 0 225px;
-        width: 70%; } }
+        width: 60%; } }
 
 .main {
   background: #fff;
@@ -662,26 +665,25 @@ p {
         .main #who-we-are p {
           width: 50%;
           padding: 0 0 0 50px; } }
-  .main #locations {
-    margin-bottom: 10vw; }
+  @media only screen and (min-width: 1024px) {
+    .main #locations .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+      .main #locations .row .image {
+        width: 46%; }
+    .main #locations h3 {
+      margin-left: 40px; } }
+  .main #locations .image + .image {
+    margin-top: 7.5vw; }
     @media only screen and (min-width: 1024px) {
-      .main #locations .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: row;
-            flex-direction: row;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-        .main #locations .row .image {
-          width: 46%; }
-      .main #locations h3 {
-        margin-left: 40px; } }
-    .main #locations .image + .image {
-      margin-top: 7.5vw; }
-      @media only screen and (min-width: 1024px) {
-        .main #locations .image + .image {
-          margin-top: 100px; } }
+      .main #locations .image + .image {
+        margin-top: 100px; } }
   .main #services {
+    padding-top: 10vw;
     background-image: url("/assets/img/tennis-bg-mobile.jpg");
     background-repeat: no-repeat;
     background-size: 80% auto;
@@ -692,6 +694,7 @@ p {
         background-image: url("/assets/img/tennis-bg.jpg");
         background-size: 50% auto;
         background-position: left bottom;
+        padding-top: 100px;
         padding-bottom: 250px; }
         .main #services p {
           width: calc( 50% - 40px); }
@@ -814,7 +817,7 @@ p {
             font-size: 14px; } }
   @media only screen and (min-width: 1024px) {
     .footer .footer-content {
-      padding: 200px calc( 50vw - 500px) 0; } }
+      padding: 200px calc( 50vw - 500px) 20px; } }
   @media only screen and (min-width: 1024px) {
     .footer .footer-content .row .left {
       width: 400px; }
