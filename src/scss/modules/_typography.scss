@@ -1,1 +1,50 @@
-@import url("https://use.typekit.net/mrx4mib.css");
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+      url('/assets/fonts/ProximaNova-Regular.woff') format('woff'),
+      url('/assets/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/assets/fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+      url('/assets/fonts/ProximaNova-RegularIt.woff') format('woff'),
+      url('/assets/fonts/ProximaNova-RegularIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Termina';
+  src: url('/assets/fonts/Termina-Medium.woff2') format('woff2'),
+      url('/assets/fonts/Termina-Medium.woff') format('woff'),
+      url('/assets/fonts/Termina-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Termina';
+  src: url('/assets/fonts/Termina-Bold.woff2') format('woff2'),
+      url('/assets/fonts/Termina-Bold.woff') format('woff'),
+      url('/assets/fonts/Termina-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Termina';
+  src: url('/assets/fonts/Termina-Regular.woff2') format('woff2'),
+      url('/assets/fonts/Termina-Regular.woff') format('woff'),
+      url('/assets/fonts/Termina-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

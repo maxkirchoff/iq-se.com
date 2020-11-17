@@ -1,5 +1,4 @@
 /* Example media query selectors */
-@import url("https://use.typekit.net/mrx4mib.css");
 @media print {
   * {
     background: transparent !important;
@@ -423,7 +422,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: proxima-nova,sans-serif;
+  font-family: "Proxima Nova",sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3.85vw;
@@ -435,7 +434,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   text-transform: uppercase;
-  font-family: termina,sans-serif;
+  font-family: "Termina",sans-serif;
   font-weight: 400;
   font-style: normal; }
 
@@ -479,6 +478,41 @@ p {
   width: 100%;
   max-width: 100%;
   display: block; }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("/assets/fonts/ProximaNova-Regular.woff2") format("woff2"), url("/assets/fonts/ProximaNova-Regular.woff") format("woff"), url("/assets/fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("/assets/fonts/ProximaNova-RegularIt.woff2") format("woff2"), url("/assets/fonts/ProximaNova-RegularIt.woff") format("woff"), url("/assets/fonts/ProximaNova-RegularIt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Termina';
+  src: url("/assets/fonts/Termina-Medium.woff2") format("woff2"), url("/assets/fonts/Termina-Medium.woff") format("woff"), url("/assets/fonts/Termina-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Termina';
+  src: url("/assets/fonts/Termina-Bold.woff2") format("woff2"), url("/assets/fonts/Termina-Bold.woff") format("woff"), url("/assets/fonts/Termina-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Termina';
+  src: url("/assets/fonts/Termina-Regular.woff2") format("woff2"), url("/assets/fonts/Termina-Regular.woff") format("woff"), url("/assets/fonts/Termina-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 
 ::selection {
   background: #333;
@@ -570,7 +604,7 @@ p {
     @media only screen and (min-width: 1024px) {
       .header nav ul li a {
         text-transform: uppercase;
-        font-family: termina,sans-serif;
+        font-family: "Termina",sans-serif;
         font-weight: bold;
         text-decoration: none;
         letter-spacing: 1px;
@@ -806,7 +840,7 @@ p {
         border-radius: 0;
         background: linear-gradient(269.76deg, #C39F67 0%, #EEDCAA 100%);
         text-transform: uppercase;
-        font-family: termina,sans-serif;
+        font-family: "Termina",sans-serif;
         font-weight: bold;
         letter-spacing: 1px;
         font-size: 3.35vw; }
